@@ -1,0 +1,17 @@
+## visual Studio 설정
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## 빌드 결과물
+Debug/
+Release/
+x64/
+x86/
+build/
+bin/
+obj/
+
+*.log
