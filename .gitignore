@@ -2,6 +2,7 @@
 .vs/
 *.suo
 *.user
+*.filters
 *.userosscache
 *.sln.docstates
 
@@ -15,3 +16,8 @@ bin/
 obj/
 
 *.log
+*.tlog
+*.aps
+*.tlog
+*.db
+*.lastbuildstate
