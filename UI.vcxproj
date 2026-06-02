@@ -187,6 +187,10 @@
     <ResourceCompile Include="UI.rc" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="README.md">
+      <SubType>
+      </SubType>
+    </None>
     <None Include="res\UI.rc2" />
   </ItemGroup>
   <ItemGroup>
