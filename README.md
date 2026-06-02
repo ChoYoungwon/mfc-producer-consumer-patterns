@@ -3,7 +3,7 @@
 
 본 시스템은 콘솔 환경의 멀티스레드 동기화 메커니즘을 MFC GUI 환경에 유기적으로 통합하기 위해  
 **RingBuffer.h의 스레드 안전성 설계**와 **MFC 모델-뷰(Doc-View) 기반 구현** 측면을 중심으로 개발 진행되었습니다.  
-![메인 화면](../images/main.png)
+![메인 화면](images/main.png)
 
 ### 0.1 RingBuffer.h 설계 측면 (RingBuffer.h Design)
 * **목표**: 콘솔 기반의 `Semaphore`와 `RingBuffer` 구조를 완벽하게 스레드 세이프하게 구현하고, 실시간 스레드 차단/대기 상태를 시각화할 수 있는 인터페이스를 내장하는 것.
